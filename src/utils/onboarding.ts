@@ -9,7 +9,7 @@ export async function needsOnboarding(): Promise<boolean> {
 
   // if extension is active and working, no onboarding needed
   const extensionActive = await isExtensionActive();
-  if (extensionActive) return true;
+  if (extensionActive) return false;
 
   // if there is any custom proxy urls, no onboarding needed
   const proxyUrls = useAuthStore.getState().proxySet;
