@@ -13,11 +13,11 @@ export async function needsOnboarding(): Promise<boolean> {
 
   // if there is any custom proxy urls, no onboarding needed
   const proxyUrls = useAuthStore.getState().proxySet;
-  if (proxyUrls) return false;
+  if (proxyUrls) return true;
 
   // if onboarding has been completed, no onboarding needed
   const completed = useOnboardingStore.getState().completed;
-  if (completed) return false;
+  if (completed) return true;
 
   return true;
 }
