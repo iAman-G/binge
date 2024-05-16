@@ -5,7 +5,7 @@ import { useOnboardingStore } from "@/stores/onboarding";
 
 export async function needsOnboarding(): Promise<boolean> {
   // if onboarding is dislabed, no onboarding needed
-  if (!conf().HAS_ONBOARDING) return true;
+  if (!conf().HAS_ONBOARDING) return false;
 
   // if extension is active and working, no onboarding needed
   const extensionActive = await isExtensionActive();
