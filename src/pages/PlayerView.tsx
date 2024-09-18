@@ -1,4 +1,4 @@
-import { RunOutput } from "@movie-web/providers";
+import { RunOutput } from "cinehub-providers"";
 import { useCallback, useEffect, useState } from "react";
 import {
   Navigate,
