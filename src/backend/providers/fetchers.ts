@@ -1,4 +1,4 @@
-import { Fetcher, makeSimpleProxyFetcher } from from "cinehub-providers";
+import { Fetcher, makeSimpleProxyFetcher } from "cinehub-providers";
 
 import { sendExtensionRequest } from "@/backend/extension/messaging";
 import { getApiToken, setApiToken } from "@/backend/helpers/providerApi";
