@@ -1,8 +1,4 @@
-import {
-  EmbedOutput,
-  NotFoundError,
-  SourcererOutput,
-} from "cinehub-providers";
+import { EmbedOutput, NotFoundError, SourcererOutput } from "cinehub-providers";
 import { useAsyncFn } from "react-use";
 
 import { isExtensionActiveCached } from "@/backend/extension/messaging";
