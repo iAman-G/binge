@@ -1,4 +1,4 @@
-import { Stream } from "cinehub-providers";
+import { Stream } from "binge-providers";
 
 import {
   SourceFileStream,

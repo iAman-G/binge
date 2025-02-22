@@ -1,4 +1,4 @@
-import { RunOutput } from "cinehub-providers";
+import { RunOutput } from "binge-providers";
 import DOMPurify from "dompurify";
 import { convert, detect, parse } from "subsrt-ts";
 import { ContentCaption } from "subsrt-ts/dist/types/handler";

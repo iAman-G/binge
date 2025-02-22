@@ -1,4 +1,4 @@
-import { RunOutput } from "cinehub-providers";
+import { RunOutput } from "binge-providers";
 import { useCallback, useEffect, useState } from "react";
 import {
   Navigate,

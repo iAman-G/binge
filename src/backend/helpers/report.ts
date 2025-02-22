@@ -1,4 +1,4 @@
-import { ScrapeMedia } from "cinehub-providers";
+import { ScrapeMedia } from "binge-providers";
 import { nanoid } from "nanoid";
 import { ofetch } from "ofetch";
 import { useCallback } from "react";

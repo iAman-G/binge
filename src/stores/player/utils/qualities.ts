@@ -1,4 +1,4 @@
-import { Qualities, Stream } from "cinehub-providers";
+import { Qualities, Stream } from "binge-providers";
 
 import { QualityStore } from "@/stores/quality";
 

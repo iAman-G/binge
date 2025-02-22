@@ -1,4 +1,4 @@
-import { MetaOutput, NotFoundError, ScrapeMedia } from "cinehub-providers";
+import { MetaOutput, NotFoundError, ScrapeMedia } from "binge-providers";
 import { jwtDecode } from "jwt-decode";
 
 import { mwFetch } from "@/backend/helpers/fetch";

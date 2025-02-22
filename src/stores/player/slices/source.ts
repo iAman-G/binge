@@ -1,4 +1,4 @@
-import { ScrapeMedia } from "cinehub-providers";
+import { ScrapeMedia } from "binge-providers";
 
 import { MakeSlice } from "@/stores/player/slices/types";
 import {

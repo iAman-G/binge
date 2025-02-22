@@ -1,4 +1,4 @@
-import { makeProviders, makeStandardFetcher, targets } from "cinehub-providers";
+import { makeProviders, makeStandardFetcher, targets } from "binge-providers";
 
 import { isExtensionActiveCached } from "@/backend/extension/messaging";
 import {
