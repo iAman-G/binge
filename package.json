@@ -35,7 +35,7 @@
     "@scure/bip39": "^1.2.2",
     "@sozialhelden/ietf-language-tags": "^5.4.2",
     "@types/node-forge": "^1.3.10",
-    "@xijulian/providers": "^2.3.4",
+    "cinehub-providers": "^2.3.0",
     "classnames": "^2.3.2",
     "core-js": "^3.34.0",
     "detect-browser": "^5.3.0",
