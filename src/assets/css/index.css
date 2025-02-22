@@ -3,20 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.component_forkme { display:none;}
-.component_poweredbyfilestash { display:none !important;}
-
 html,
 body {
   @apply bg-background-main font-open-sans text-type-text;
   min-height: 100vh;
   min-height: 100dvh;
- font-family: 'OVERLOCK' !important;
 }
 
 html[data-full],
 html[data-full] body {
   overscroll-behavior-y: none;
+  font-family: 'OVERLOCK' !important;
+
 }
 
 body[data-no-scroll] {

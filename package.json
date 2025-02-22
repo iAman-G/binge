@@ -137,7 +137,7 @@
       "rollup": "npm:@rollup/wasm-node"
     },
     "onlyBuiltDependencies": [
-      "cinehub-providers"
+      "binge-providers"
     ]
   }
 }
