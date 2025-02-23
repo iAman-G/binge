@@ -83,6 +83,10 @@ html[data-no-scroll] body {
   min-height: 100dvh;
 }
 
+.hide {
+  display:none;
+ }
+
 /*generated with Input range slider CSS style generator (version 20211225)
 https://toughengineer.github.io/demo/slider-styler*/
 :root {
